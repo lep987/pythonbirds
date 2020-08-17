@@ -13,5 +13,6 @@ if __name__ == '__main__':
     print (Leonardo.jup(), Lorival.nome)
     for filho in Lorival.filho:
         print (filho.nome, filho.idade)
-    # for filhos in Lorival.filho:
-    #     print (filho.nome)
+    Lorival.sobrenome = 'José'
+    print (Lorival.nome, Lorival.sobrenome)
+print (Lorival.__dict__)
