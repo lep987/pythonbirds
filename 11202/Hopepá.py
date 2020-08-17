@@ -1,4 +1,5 @@
 class jove:
+    olhos = 2
     def __init__(self, *filho, nome = None, idade = 0):
         self.idade = idade
         self.nome = nome
@@ -16,3 +17,6 @@ if __name__ == '__main__':
     Lorival.sobrenome = 'José'
     print (Lorival.nome, Lorival.sobrenome)
 print (Lorival.__dict__)
+print ()
+print (Lorival.olhos, Leonardo.olhos, jove.olhos)
+
