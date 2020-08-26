@@ -9,19 +9,6 @@ class motor:
             motor.vel = 0
 motor = motor()
 print(motor.vel())
-motor.acel()
-print(motor.vel)
-motor.fre()
-print(motor.vel)
-motor.acel()
-motor.acel()
-motor.acel()
-
-print(motor.vel)
-motor.fre()
-motor.fre()
-motor.fre()
-
 print(motor.vel)
 
 class direção:

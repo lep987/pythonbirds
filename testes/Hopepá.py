@@ -12,6 +12,10 @@ class jove:
     @classmethod
     def Hoptipá(cls):
         return f'{Leonardo.nome} tem {jove.olhos} olhos.'
+
+
+
+
 if __name__ == '__main__':
     Rodrigo = jove(nome = 'Rodrigo', idade = 30)
     Leonardo = jove(nome ='Leonardo',idade = 20)
@@ -31,6 +35,7 @@ if __name__ == '__main__':
     print (Lorival.nome, Lorival.sobrenome)
     print (Rodrigo.nome, Rodrigo.sobrenome)
     print (Leonardo.nome, Leonardo.sobrenome)
+    print(isinstance(Rodrigo, juve))
 print ()
 print (Thelma.__dict__)
 print (jove.julieta(), Leonardo.julieta())
